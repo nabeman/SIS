@@ -35,12 +35,17 @@ html, body{
     height: 375px;
     font-size: 0;
     margin: 0;
+    vertical-align: top;
 }
 
 .menu{
+    /* position: fixed; */
     display: inline-block;
     width: 600px;
     height: 625px;
+    font-size: 60px;
+    /* font-size: 82px;
+    line-height: 80px; */
     margin: 0;
     background-color: burlywood;
 }
@@ -48,15 +53,51 @@ html, body{
 .myimgarea{
     display: inline-block;
     width: 375px;
-    height: 375px;
+    height: 100%;
+
     margin: 0;
+    text-align: center;
     background-color: brown;
 }
 
 .setumei{
+    position: fixed;
     display: inline-block;
     width: 225px;
     height: 375px;
     margin: 0;
+    font-size: 52px;
+    line-height: 0;
     background-color: chocolate;
+}
+
+.myimg{
+    display: inline-block;
+    width: auto;
+    height: 100%;
+}
+
+.small{
+    font-size: 32.5px;
+    line-height: 0;
+}
+
+.menu-list{
+    padding-left: 40px;
+    transition: color 0.2s;
+}
+
+.menu-list:hover{
+    color:cadetblue
+}
+
+.title{
+    font-size: 83px;
+    padding-left: 40px;
+}
+
+.normal{
+    font-size: 52px;
+    padding-left: 60px;
+    padding-right: 60px;
 }

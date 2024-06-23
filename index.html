@@ -11,18 +11,26 @@
             <div class="left">
                 <div class="profile">
                     <div class="myimgarea">
-                        
+                        <img class="myimg" src="golden.jpg">
                     </div>
                     <div class="setumei">
-
+                        <p>TAKUMI</p>
+                        <p>MANABE</p>
+                        <p class="small">情報理工学位</p>
+                        <p class="small">IPLAB</p>
                     </div>
                 </div>
                 <div class="menu">
-
+                    <p class="menu-list" @click="About()">ABOUT</p>
+                    <p class="menu-list" @click="Works()">WORKS</p>
+                    <p class="menu-list" @click="Contact()">CONTACT</p>
                 </div>
             </div>
             <div class="right">
-                
+                <p class="title">{{ title }}</p>
+                <p class="normal">{{ normal1 }}</p>
+                <p class="normal">{{ normal2 }}</p>
+                <p class="normal">{{ normal3 }}</p>
             </div>
         </div>
         
